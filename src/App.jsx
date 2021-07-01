@@ -1,9 +1,10 @@
 import React from "react";
+import Counter from "./components";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <Counter initialCount={5} />
     </div>
   );
 };
